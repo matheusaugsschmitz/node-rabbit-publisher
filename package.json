@@ -1,0 +1,33 @@
+{
+  "name": "rabbit-publisher",
+  "version": "1.0.0",
+  "description": "A simple RabbitMQ publisher with auth and message backup in MongoDB",
+  "main": "bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusaugsschmitz/node-rabbit-publisher.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Matheus Augusto Schmitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusaugsschmitz/node-rabbit-publisher/issues"
+  },
+  "homepage": "https://github.com/matheusaugsschmitz/node-rabbit-publisher#readme",
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.6"
+  }
+}
